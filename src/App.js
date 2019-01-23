@@ -11,7 +11,7 @@ class App extends Component {
       <div className='App'>
         <header className='App-header'>
           <Link to='/button' className='link'>Button</Link>
-          <Link to='/checkboxe' className='link'>Checkboxe</Link>
+          <Link to='/checkbox' className='link'>Checkbox</Link>
           <Link to='/clipboard' className='link'>Clipboard</Link>
           <Link to='/file' className='link'>File</Link>
           <Link to='/input' className='link'>Input</Link>
