@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
-}
+@import 'variables.scss';
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   animation: App-logo-spin infinite 20s linear;
+//   height: 40vmin;
+// }
 
 .App-header {
   background-color: #282c34;
@@ -19,7 +21,7 @@
   padding: 0 35px;
   .link {
     text-decoration: none;
-    color: #61dafb;
+    color: $main-color;
     &:hover {
       color: #4f9bb1;
     }
@@ -29,7 +31,7 @@
 .App-main {
   background-color: rgb(63, 67, 77);
   min-height: 90vh;
-  padding: 35px;
+  padding: $main-padding;
   box-sizing: border-box;
 }
 
@@ -40,4 +42,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.section__title {
+  color: $main-color;
+  border-bottom: 2px solid $main-color;
+  text-align: left;
+  padding: $main-padding 0;
+  font-size: $main-font-size;
+}
+
+.items__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
