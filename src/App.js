@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 
 import ButtonsPage from './containers/Buttons';
+import CheckboxPage from './containers/Checkbox';
 
 import './App.scss';
 
@@ -21,6 +22,7 @@ class App extends Component {
         </header>
         <div className='App-main'>
           <Route path='/button' component={ButtonsPage} />
+          <Route path='/checkbox' component={CheckboxPage} />
         </div>
       </div>
     );
