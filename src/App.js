@@ -5,6 +5,7 @@ import ButtonsPage from './containers/Buttons';
 import CheckboxPage from './containers/Checkbox';
 import ClipboardPage from './containers/Clipboard';
 import FilesPage from './containers/Files';
+import InputsPage from './containers/Inputs';
 
 import './App.scss';
 
@@ -27,6 +28,7 @@ class App extends Component {
           <Route path='/checkbox' component={CheckboxPage} />
           <Route path='/clipboard' component={ClipboardPage} />
           <Route path='/files' component={FilesPage} />
+          <Route path='/inputs' component={InputsPage} />
         </div>
       </div>
     );
