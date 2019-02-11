@@ -4,6 +4,7 @@ import { Route, Link } from 'react-router-dom';
 import ButtonsPage from './containers/Buttons';
 import CheckboxPage from './containers/Checkbox';
 import ClipboardPage from './containers/Clipboard';
+import FilesPage from './containers/Files';
 
 import './App.scss';
 
@@ -25,6 +26,7 @@ class App extends Component {
           <Route path='/button' component={ButtonsPage} />
           <Route path='/checkbox' component={CheckboxPage} />
           <Route path='/clipboard' component={ClipboardPage} />
+          <Route path='/files' component={FilesPage} />
         </div>
       </div>
     );
