@@ -6,6 +6,7 @@ import CheckboxPage from './containers/Checkbox';
 import ClipboardPage from './containers/Clipboard';
 import FilesPage from './containers/Files';
 import InputsPage from './containers/Inputs';
+import ModalPage from './containers/Modal';
 
 import './App.scss';
 
@@ -29,6 +30,7 @@ class App extends Component {
           <Route path='/clipboard' component={ClipboardPage} />
           <Route path='/files' component={FilesPage} />
           <Route path='/inputs' component={InputsPage} />
+          <Route path='/modals' component={ModalPage} />
         </div>
       </div>
     );
