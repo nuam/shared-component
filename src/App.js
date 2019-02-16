@@ -7,6 +7,7 @@ import ClipboardPage from './containers/Clipboard';
 import FilesPage from './containers/Files';
 import InputsPage from './containers/Inputs';
 import ModalPage from './containers/Modal';
+import SelectPage from './containers/Select';
 
 import './App.scss';
 
@@ -31,6 +32,7 @@ class App extends Component {
           <Route path='/files' component={FilesPage} />
           <Route path='/inputs' component={InputsPage} />
           <Route path='/modals' component={ModalPage} />
+          <Route path='/selects' component={SelectPage} />
         </div>
       </div>
     );
