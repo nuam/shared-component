@@ -8,6 +8,7 @@ import FilesPage from './containers/Files';
 import InputsPage from './containers/Inputs';
 import ModalPage from './containers/Modal';
 import SelectPage from './containers/Select';
+import TextareaPage from './containers/Textarea';
 
 import './App.scss';
 
@@ -33,6 +34,7 @@ class App extends Component {
           <Route path='/inputs' component={InputsPage} />
           <Route path='/modals' component={ModalPage} />
           <Route path='/selects' component={SelectPage} />
+          <Route path='/textareas' component={TextareaPage} />
         </div>
       </div>
     );
