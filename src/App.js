@@ -20,7 +20,7 @@ class App extends Component {
           <Link to='/button' className='link'>Button</Link>
           <Link to='/checkbox' className='link'>Checkbox</Link>
           <Link to='/clipboard' className='link'>Clipboard</Link>
-          <Link to='/file' className='link'>File</Link>
+          <Link to='/files' className='link'>Files</Link>
           <Link to='/input' className='link'>Input</Link>
           <Link to='/modal' className='link'>Modal</Link>
           <Link to='/select' className='link'>Select</Link>
