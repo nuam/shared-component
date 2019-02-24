@@ -1,14 +1,4 @@
-import React from 'react';
-import { FilePicker } from 'react-file-picker';
+import ReactDropzone from './ReactDropzone';
+import ReactFilePicker from './ReactFilePicker';
 
-const FilesPicker = props => (
-  <FilePicker
-      extensions={['jpg', 'jpeg', 'png', 'psd', 'doc', 'xls']}
-      onChangeHandler={file => props.onChangeHandler(file)}
-      onError={props.onErrorHandler}
-  >
-      {props.children}
-  </FilePicker>
-);
-
-export default FilesPicker;
+export { ReactDropzone, ReactFilePicker }
