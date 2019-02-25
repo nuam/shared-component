@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReactDropzone, ReactFilePicker } from '../../components/FileToServer';
+import { FileInput, ReactDropzone, ReactFilePicker } from '../../components/FileToServer';
 // import Button from '../../components/Button';
 
 export default class Files extends React.Component {
@@ -21,6 +21,7 @@ export default class Files extends React.Component {
   render() {
     return (
       <div>
+        <FileInput />
         <ReactFilePicker
           onChangeHandler={this.onChangeHandler}
           onErrorHandler={() => { }}
