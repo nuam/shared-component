@@ -8,9 +8,15 @@ export default class Files extends React.Component {
     // console.log('filesfiles', files);
   }
 
-  onDrop = (acceptedFiles, rejectedFiles) => {
-    console.log('acceptedFilesacceptedFilesacceptedFiles', acceptedFiles);
+
+  onDrop = async (acceptedFiles, rejectedFiles) => {
+    const formData = new FormData();
+    formData.append('file', acceptedFiles[0]);
+
+    // const result = await uploadOrderDocument(token, formData);
+
   }
+
 
   render() {
     return (
