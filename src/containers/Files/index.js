@@ -1,14 +1,13 @@
 import React from 'react';
 
 import { FileInput, ReactDropzone } from '../../components/FileToServer';
-// import Button from '../../components/Button';
 
 export default class Files extends React.Component {
   onDrop = async (acceptedFiles, rejectedFiles) => {
     const formData = new FormData();
     formData.append('file', acceptedFiles[0]);
 
-    // const result = await uploadOrderDocument(token, formData);
+    // const result = await uploadDocument(token, formData);
   }
 
   changeFile = (event) => {
